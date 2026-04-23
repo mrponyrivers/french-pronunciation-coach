@@ -4,6 +4,10 @@
 
 A Streamlit app that helps learners practice French pronunciation by recording their voice, transcribing what the app hears, comparing the spoken result to a target phrase, and giving simple feedback with a replayable model pronunciation.
 
+## App Preview
+![French Pronunciation Coach Screenshot](assets/french-coach.png)
+
+
 ---
 
 ## Overview
