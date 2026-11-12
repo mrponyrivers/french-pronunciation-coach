@@ -76,6 +76,26 @@ st.markdown(
 # Phrase packs
 # =========================================
 PHRASE_PACKS = {
+    "Doctor appointment": [
+        {"text": "Je voudrais prendre rendez-vous avec le médecin.", "difficulty": "Medium"},
+        {"text": "J’ai mal au ventre depuis hier.", "difficulty": "Medium"},
+        {"text": "Pouvez-vous parler un peu plus lentement ?", "difficulty": "Easy"},
+    ],
+    "Phone calls": [
+        {"text": "Bonjour, je vous appelle au sujet de mon dossier.", "difficulty": "Medium"},
+        {"text": "Pourriez-vous me rappeler demain matin ?", "difficulty": "Medium"},
+        {"text": "Je n’ai pas bien compris, pouvez-vous répéter ?", "difficulty": "Medium"},
+    ],
+    "Residency appointment": [
+        {"text": "Quels documents dois-je apporter au rendez-vous ?", "difficulty": "Medium"},
+        {"text": "Je voudrais vérifier que mon dossier est complet.", "difficulty": "Medium"},
+        {"text": "Pouvez-vous me confirmer la date limite par écrit ?", "difficulty": "Medium"},
+    ],
+    "Job interview": [
+        {"text": "J’ai créé des projets personnels pour développer mes compétences.", "difficulty": "Medium"},
+        {"text": "Je m’intéresse à l’analyse de données et à l’intelligence artificielle.", "difficulty": "Medium"},
+        {"text": "Je peux vous montrer un exemple de mon travail.", "difficulty": "Easy"},
+    ],
     "Greetings": [
         {"text": "Bonjour, je m'appelle Pony.", "difficulty": "Easy"},
         {"text": "Comment ça va aujourd'hui ?", "difficulty": "Easy"},
@@ -297,6 +317,12 @@ with st.sidebar:
 # Header
 # =========================================
 st.title("🗣️ French Pronunciation Coach")
+st.link_button(
+    "Open LIFE OS French Role Play — doctor, phone, residency and interview practice",
+    "https://life-os-omega-ochre.vercel.app/french-hub/role-play",
+    use_container_width=True,
+)
+st.caption("Role Play continues in your private LIFE OS account with turn-by-turn corrections and saved sessions. Phrase practice remains below.")
 st.markdown(
     """
     <div class="hero-card">
